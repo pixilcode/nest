@@ -14,4 +14,4 @@
 (package
  (name nest)
  (synopsis "A financial planning app")
- (depends ocaml))
+ (depends ocaml core dream tyxml))

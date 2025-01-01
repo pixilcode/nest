@@ -1,2 +1,3 @@
 (library
- (name nest_html))
+ (name nest_html)
+ (libraries core tyxml))
