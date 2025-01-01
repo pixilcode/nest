@@ -1,4 +1,4 @@
 (executable
  (public_name nest)
  (name main)
- (libraries nest))
+ (libraries nest nest_html core dream))

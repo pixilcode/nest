@@ -8,6 +8,9 @@ bug-reports: "https://github.com/pixilcode/nest/issues"
 depends: [
   "dune" {>= "3.17"}
   "ocaml"
+  "core"
+  "dream"
+  "tyxml"
   "odoc" {with-doc}
 ]
 build: [
