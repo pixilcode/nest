@@ -34,7 +34,7 @@ let html_page
 
       (body body_content)
 
-let std_page title =
+let std_page title main_content =
   html_page
     ~page_title:title
     [
@@ -42,7 +42,5 @@ let std_page title =
         h1 [txt "Nest"]
       ];
 
-      main [
-        p [txt "Hello world!"]
-      ]
+      main main_content
     ]
